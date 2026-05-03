@@ -1,0 +1,161 @@
+[
+  {
+    "id": "NS22",
+    "name": "Orchard",
+    "codes": ["NS22"],
+    "line": ["NSL"],
+    "lat": 1.3048,
+    "lng": 103.8318,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.3049, "lng": 103.8316, "description": "Near Orchard Road", "operational": true },
+      { "exitCode": "Exit B", "lat": 1.3047, "lng": 103.832, "description": "Near ION Orchard", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit B"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": true
+  },
+  {
+    "id": "NS25_EW13",
+    "name": "City Hall",
+    "codes": ["NS25", "EW13"],
+    "line": ["NSL", "EWL"],
+    "lat": 1.2931,
+    "lng": 103.8520,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.2932, "lng": 103.8518, "description": "Near St Andrew's Road", "operational": true },
+      { "exitCode": "Exit D", "lat": 1.293, "lng": 103.8522, "description": "Near Raffles City", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit D"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": true
+  },
+  {
+    "id": "NS26_EW14",
+    "name": "Raffles Place",
+    "codes": ["NS26", "EW14"],
+    "line": ["NSL", "EWL"],
+    "lat": 1.2840,
+    "lng": 103.8514,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.2841, "lng": 103.8512, "description": "Near Boat Quay", "operational": true },
+      { "exitCode": "Exit H", "lat": 1.2839, "lng": 103.8516, "description": "Near One Raffles Place", "operational": false }
+    ],
+    "barrierFreeExits": ["Exit A"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": false
+  },
+  {
+    "id": "NS1_EW24",
+    "name": "Jurong East",
+    "codes": ["NS1", "EW24"],
+    "line": ["NSL", "EWL"],
+    "lat": 1.3331,
+    "lng": 103.7420,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.3332, "lng": 103.7418, "description": "Near JEM", "operational": true },
+      { "exitCode": "Exit B", "lat": 1.333, "lng": 103.7422, "description": "Near Westgate", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit B"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": true
+  },
+  {
+    "id": "EW2_DT32",
+    "name": "Tampines",
+    "codes": ["EW2", "DT32"],
+    "line": ["EWL", "DTL"],
+    "lat": 1.3543,
+    "lng": 103.9452,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.3544, "lng": 103.945, "description": "Near Tampines Mall", "operational": true },
+      { "exitCode": "Exit C", "lat": 1.3542, "lng": 103.9454, "description": "Near Century Square", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit C"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": false
+  },
+  {
+    "id": "NS16",
+    "name": "Ang Mo Kio",
+    "codes": ["NS16"],
+    "line": ["NSL"],
+    "lat": 1.3699,
+    "lng": 103.8495,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.37, "lng": 103.8493, "description": "Near AMK Hub", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": false
+  },
+  {
+    "id": "NS17_CC15",
+    "name": "Bishan",
+    "codes": ["NS17", "CC15"],
+    "line": ["NSL", "CCL"],
+    "lat": 1.3508,
+    "lng": 103.8485,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.3509, "lng": 103.8483, "description": "Near Junction 8", "operational": true },
+      { "exitCode": "Exit B", "lat": 1.3507, "lng": 103.8487, "description": "Near Bishan Bus Interchange", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit B"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": true
+  },
+  {
+    "id": "NS24_NE6_CC1",
+    "name": "Dhoby Ghaut",
+    "codes": ["NS24", "NE6", "CC1"],
+    "line": ["NSL", "NEL", "CCL"],
+    "lat": 1.2990,
+    "lng": 103.8458,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.2991, "lng": 103.8456, "description": "Near Plaza Singapura", "operational": true },
+      { "exitCode": "Exit C", "lat": 1.2989, "lng": 103.846, "description": "Near The Cathay", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit C"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": true
+  },
+  {
+    "id": "NE1_CC29",
+    "name": "HarbourFront",
+    "codes": ["NE1", "CC29"],
+    "line": ["NEL", "CCL"],
+    "lat": 1.2654,
+    "lng": 103.8215,
+    "lifts": [
+      { "exitCode": "Exit B", "lat": 1.2655, "lng": 103.8213, "description": "Near VivoCity", "operational": true },
+      { "exitCode": "Exit E", "lat": 1.2653, "lng": 103.8217, "description": "Near HarbourFront Centre", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit B", "Exit E"],
+    "accessibleToilet": true,
+    "tactileGuides": false,
+    "hearingLoop": false
+  },
+  {
+    "id": "NS9_TE2",
+    "name": "Woodlands",
+    "codes": ["NS9", "TE2"],
+    "line": ["NSL", "TEL"],
+    "lat": 1.4370,
+    "lng": 103.7866,
+    "lifts": [
+      { "exitCode": "Exit A", "lat": 1.4371, "lng": 103.7864, "description": "Near Causeway Point", "operational": true },
+      { "exitCode": "Exit B", "lat": 1.4369, "lng": 103.7868, "description": "Near Woodlands Bus Interchange", "operational": true }
+    ],
+    "barrierFreeExits": ["Exit A", "Exit B"],
+    "accessibleToilet": true,
+    "tactileGuides": true,
+    "hearingLoop": true
+  }
+]
