@@ -1,7 +1,6 @@
 'use client';
 
 import { Station } from '@/lib/types';
-import { CheckCircle, XCircle, Elevator } from 'lucide-react';
 import { useBusArrival } from '@/hooks/useBusArrival';
 
 interface Props {

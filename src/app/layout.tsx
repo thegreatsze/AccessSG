@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -8,9 +8,14 @@ export const metadata: Metadata = {
   title: 'AccessSG — Barrier-Free Trip Planner',
   description: 'Plan accessible public transport journeys across Singapore for wheelchair users, elderly commuters, and people with disabilities.',
   manifest: '/manifest.json',
-  themeColor: '#16a34a',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   appleWebApp: { capable: true, statusBarStyle: 'default', title: 'AccessSG' },
+};
+
+export const viewport: Viewport = {
+  themeColor: '#16a34a',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
