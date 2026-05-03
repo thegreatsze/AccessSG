@@ -149,7 +149,7 @@ export default function RoutePage() {
           >
             <span className="flex items-center gap-2">
               <HelpCircle className="w-4 h-4 text-gray-400" aria-hidden="true" />
-              How are scores and labels calculated?
+              What do the badge labels and scores mean and how are they arrived at?
             </span>
             {guideOpen
               ? <ChevronUp className="w-4 h-4 text-gray-400" aria-hidden="true" />

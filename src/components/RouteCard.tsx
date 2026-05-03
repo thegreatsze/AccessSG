@@ -30,8 +30,11 @@ const modeColors: Record<RouteLeg['mode'], string> = {
 export default function RouteCard({ leg, stepNumber, profileType }: Props) {
   const score = scoreRouteLeg(leg);
   const isWheelchair = profileType ? WHEEL_PROFILES.has(profileType) : false;
-  const walkLabel = isWheelchair ? 'TRAVEL' : 'WALK';
-  const walkVerb  = isWheelchair ? 'Travel' : 'Walk';
+  const walkLabel = isWheelchair ? 'WALK/TRAVEL' : 'WALK';
+  const walkVerb  = isWheelchair ? 'Walk/travel' : 'Walk';
+  const displayInstruction = (isWheelchair && leg.mode === 'walk')
+    ? leg.instructions.replace(/^Walk\b/, 'Walk/travel')
+    : leg.instructions;
 
   return (
     <article className="bg-white rounded-xl border border-gray-200 p-4" aria-label={`Step ${stepNumber}: ${leg.instructions}`}>
@@ -53,7 +56,7 @@ export default function RouteCard({ leg, stepNumber, profileType }: Props) {
           </div>
 
           {/* Instruction */}
-          <p className="text-sm font-medium text-gray-900">{leg.instructions}</p>
+          <p className="text-sm font-medium text-gray-900">{displayInstruction}</p>
 
           {/* From → To */}
           <div className="flex items-center gap-1 text-xs text-gray-500 mt-1">
